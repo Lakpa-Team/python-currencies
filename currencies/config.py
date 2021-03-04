@@ -220,8 +220,8 @@ MONEY_FORMATS = {
         "money_with_currency_format": "BZ${amount} BZD",
     },
     MONEY_CURRENCY_CAD: {
-        "money_format": "${amount}",
-        "money_with_currency_format": "${amount} CAD",
+        "money_format": "C${amount}",
+        "money_with_currency_format": "C${amount} CAD",
     },
     MONEY_CURRENCY_CHF: {
         "money_format": "SFr. {amount}",
