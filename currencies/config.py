@@ -232,7 +232,7 @@ MONEY_FORMATS = {
     },
     MONEY_CURRENCY_CLF: {
         "money_format": "UF{amount}",
-        "money_with_currency_format": "UF{amount} CLF",
+        "money_with_currency_format": "UF{amount} UF",
     },
     MONEY_CURRENCY_CNY: {
         "money_format": "¥{amount}",
@@ -571,8 +571,8 @@ MONEY_FORMATS = {
         "money_with_currency_format": "Ush {amount} UGX",
     },
     MONEY_CURRENCY_USD: {
-        "money_format": "${amount}",
-        "money_with_currency_format": "${amount} USD",
+        "money_format": "US${amount}",
+        "money_with_currency_format": "US${amount} USD",
     },
     MONEY_CURRENCY_UYU: {
         "money_format": "${amount}",
